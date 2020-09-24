@@ -12,8 +12,7 @@ configuration: Release
 build: 
   parallel: true
   project: Glide64.sln
-  
-verbosity: minimal
+
 
 install:
   - ps: Start-FileDownload 'https://github.com/wxWidgets/wxWidgets/releases/download/v3.0.5/wxMSW-3.0.5-Setup.exe'
