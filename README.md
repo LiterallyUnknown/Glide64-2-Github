@@ -6,7 +6,7 @@ ________________________________________________________________________________
 Compiling on Windows:
 
 PREREQUISITES: 
-Visual Studio 2005 or newer.
+Visual Studio 2019 or newer.
 wxWidgets (and add to Environment Variable)
 
 OPTIONAL PREREQUISITES:
@@ -16,9 +16,13 @@ libpng
 zlib
 Read GlideHQ/Makefile.vc8
 
-Glitch64: Compile using at least Visual Studio 2005.
+Glitch64: Compile using at least Visual Studio 2019.
 
-Glide64: Assuming you have Visual Studio 2005 and downloaded and added wxWidgets to Environment Variable, simply build the project using Visual Studio. "n64Glide.sln"
+Glide64: Assuming you have Visual Studio 2019 and downloaded and added wxWidgets to Environment Variable, simply build the project using Visual Studio. "n64Glide.sln"
 
 GlideHQ: Assuming you have all the Prerequisites, even the optionals, then from the GlideHQ folder, simply type in cmd: "make -f Makefile.vc8", without quotation marks.
 _________________________________________________________________________________________________________________________________________________________________________
+Installing:
+PREREQUISITES: An N64 Emulator with a plugins folder.
+
+Place the files generated from Build into Plugins folder.
