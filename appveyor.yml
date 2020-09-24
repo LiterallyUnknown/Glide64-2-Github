@@ -1,0 +1,19 @@
+version: 1.0.Glide64
+
+branches:
+  only:
+    - master
+    
+image: Visual Studio 2019
+
+
+configuration: Release
+
+build: 
+  parallel: true
+  project: Glide64.sln
+  
+verbosity: normal
+
+install:
+  - ps: Start-FileDownload 'https://github.com/wxWidgets/wxWidgets/releases/download/v3.0.5/wxMSW-3.0.5-Setup.exe'
